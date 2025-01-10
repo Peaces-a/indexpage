@@ -1,0 +1,55 @@
+{
+    "title": "Tianqi Han",
+    "theme": {
+        "theme": "liora",
+        "displayName": "Liora",
+        "colors": {
+            "autoSwitch": {
+                "displayName": "Auto",
+                "light": "sun",
+                "dark": "moon",
+                "icon": {
+                    "icon": "fa-solid fa-circle-half-stroke",
+                    "color": "#808080",
+                    "background": "linear-gradient(45deg, #eeeeee 50%, #1c1c1c 50%)"
+                }
+            },
+            "enable": ["sun", "!autoSwitch", "moon"],
+            "default": "!autoSwitch"
+        }
+    },
+    "masterInfo": {
+        "name": "Peace",
+        "avatar": "./assets/images/avatar.jpg",
+        "website": "https://hantianqi.net",
+        "socialLink": {
+            "link": {
+                "bilibili": "https://space.bilibili.com/354020793",
+                "blog": "https://ssnur.com",
+                "email": "javascript:showEmail()"
+            },
+            "icon": {
+                "bilibili": "fa-brands fa-bilibili",
+                "blog": "fa-solid fa-blog",
+                "email": "fa-solid fa-envelope"
+            },
+            "enable": ["bilibili", "blog", "email"]
+        }
+    },
+    "pageHead": {
+        "typedContent": ["生如夏花之绚烂，死如秋叶之静", "life as radiant as summer blooms","death as serene as autumn leaves"]
+    },
+    "icp": {
+        "info": {
+            "code": {
+                "china": "2006年-2025年",
+                "moegov": "萌ICP备20230456号"
+            },
+            "link": {
+                "china": "https://beian.miit.gov.cn",
+                "moegov": "https://icp.gov.moe/?keyword=20230456"
+            }
+        },
+        "enable": ["moegov", "china"]
+    }
+}
